@@ -1,0 +1,28 @@
+{
+  "name": "simpleauth",
+  "version": "1.0.0",
+  "description": "Simple Authentication for nodejs",
+  "main": "index.js",
+  "author": "Ezechi Somto",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.15.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "joi": "^14.3.1",
+    "mongoose": "^5.4.16",
+    "swagger-ui-express": "^4.0.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
